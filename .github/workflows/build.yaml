@@ -14,6 +14,10 @@ jobs:
             config: starfive_visionfive2_defconfig
             localversion: -starfive
 
+          - ref: JH7110_VF2_6.12_v6.0.0
+            config: starfive_visionfive2_custom_defconfig
+            localversion: -starfive-custom
+
     env:
       ARCH: riscv
       CROSS_COMPILE: riscv64-linux-gnu-
